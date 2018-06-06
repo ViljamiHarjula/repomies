@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "oikasti"]
+	url = c:/User/Adminstratior/githarjoitus/kolmaskansio
+	fetch = +refs/heads/*:refs/remotes/oikasti/*
+[remote "oikeasti"]
+	url = c/:User/Administrator/githarjoitus/kolmaskansio
+	fetch = +refs/heads/*:refs/remotes/oikeasti/*
+[remote "repomies"]
+	url = https://github.com/ViljamiHarjula/repomies
+	fetch = +refs/heads/*:refs/remotes/repomies/*
